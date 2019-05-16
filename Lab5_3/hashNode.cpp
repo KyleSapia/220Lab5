@@ -12,12 +12,14 @@ hashNode::hashNode(){
     currSize=0;
     values=NULL;
     keyword="";
+    srand(time(0));
 }
 hashNode::hashNode(string s){
     keyword=s;
     valuesSize=100;
     currSize=0;
     values=new string[valuesSize];
+    srand(time(0));
 }
 hashNode::hashNode(string s, string v){
     keyword=s;

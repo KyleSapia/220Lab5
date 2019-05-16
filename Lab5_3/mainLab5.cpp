@@ -14,7 +14,7 @@ using namespace std;
 #include "makeSeuss.hpp"
 
 int main() {
-	cout << "Hi" << endl;
+	//cout << "Hi" << endl;
 	makeSeuss("DrSeuss.txt", "NewText.txt", true, true);
 	return 0;
 }
